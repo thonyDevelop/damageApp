@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/damage_list"
+        android:title="Lista de daños"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option_register_damage"
+        android:title="Registrar daños"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option_logout"
+        android:title="Cerrar Sesión"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <!-- Agrega más elementos de menú según sea necesario -->
+</menu>
